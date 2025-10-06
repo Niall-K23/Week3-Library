@@ -33,8 +33,8 @@
 
         public void DisplayInfo()
         {
-            Console.WriteLine($"Title: {title}");
-            Console.WriteLine($"Author: {author}");
+            Console.WriteLine($"Title: {Title}");
+            Console.WriteLine($"Author: {Author}");
             Console.WriteLine($"ISBN: {isbn}");
             Console.WriteLine();
         }
