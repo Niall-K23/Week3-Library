@@ -1,25 +1,6 @@
-﻿class Book
+﻿using Week3_Library;
+class Program
 {
-    string Title;
-    string Author;
-    string ISBN;
-
-    //Example of a constructor that allows us to "construct" a new book object
-    public Book(string bookTitle, string bookAuthor, string bookISBN)
-    {
-        Title = bookTitle;
-        Author = bookAuthor;
-        ISBN = bookISBN;
-    }
-
-    void DisplayInfo()
-    {
-        Console.WriteLine($"Title: {Title}");
-        Console.WriteLine($"Author: {Author}");
-        Console.WriteLine($"ISBN: {ISBN}");
-        Console.WriteLine();
-    }
-
     static void Main(string[] args)
     {
         //Create a new instance (object) of the Book class
